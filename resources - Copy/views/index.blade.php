@@ -88,7 +88,7 @@
         </div>
       </article>
       <article class="event-card">
-        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Wedding" />
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Bride and groom walking hand in hand outdoors on a sunny day surrounded by greenery and trees, joyful and celebratory atmosphere" />
         <div class="event-content">
           <h3>Wedding</h3>
           <p>Make your wedding memorable with beautiful arrangements and more.</p>

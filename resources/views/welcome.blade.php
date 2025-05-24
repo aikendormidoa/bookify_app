@@ -128,5 +128,27 @@
                 </div>
             </div>
         </div>
+        <section id="events">
+          <h2>Available Events</h2>
+          <div id="events-list" class="feature-cards">
+            @if(isset($events) && count($events))
+              @foreach($events as $event)
+                <article class="event-card">
+                  <h3>{{ $event['API'] ?? 'Event' }}</h3>
+                  <p>{{ $event['Description'] ?? 'No description.' }}</p>
+                  <a href="{{ $event['Link'] ?? '#' }}" target="_blank">
+                    <button>View Event</button>
+                  </a>
+                </article>
+              @endforeach
+            @else
+              <p>No events found.</p>
+            @endif
+          </div>
+        </section>
+        <!-- Replace this -->
+        <form action="#" method="POST" style="display:inline;">
+          <button type="submit">Delete</button>
+        </form>
     </body>
 </html>
